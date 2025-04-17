@@ -1,0 +1,44 @@
+<svg viewBox="0 0 468 60" xmlns="http://www.w3.org/2000/svg">
+  <a href="https://t.me/norharatch">
+    <!-- Background with gradient -->
+    <defs>
+      <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#0088cc"/>
+        <stop offset="100%" stop-color="#005f8d"/>
+      </linearGradient>
+    </defs>
+    
+    <!-- Main background -->
+    <rect width="468" height="60" rx="6" ry="6" fill="url(#bgGradient)"/>
+    
+    <!-- Decorative elements -->
+    <circle cx="420" cy="10" r="35" fill="#0094d9" opacity="0.2"/>
+    <circle cx="40" cy="50" r="25" fill="#0094d9" opacity="0.2"/>
+    
+    <!-- Telegram logo -->
+    <g transform="translate(35, 30) scale(0.22)">
+      <circle cx="0" cy="0" r="70" fill="white"/>
+      <path d="M-28,-14 L48,-34 L18,12 L-8,-5 L-36,26 L-28,-14" fill="#0088cc"/>
+      <path d="M-8,-5 L36,30 L18,12 L-8,-5" fill="#0079b3"/>
+      <path d="M-8,-5 L-2,30 L-36,26 L-8,-5" fill="#0094d9"/>
+    </g>
+    
+    <!-- Text content with specific color requirements -->
+    <text x="140" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+      <tspan fill="white">Գտէ՛ք </tspan>
+      <tspan fill="#FF0000">Նոր Յառաջ</tspan><tspan fill="white">ը</tspan>
+    </text>
+    
+    <text x="140" y="45" font-family="Arial, sans-serif" font-size="12" fill="white">Telegram-ի վրայ</text>
+    
+    <!-- Call to action button -->
+    <rect x="360" y="15" width="90" height="30" rx="15" ry="15" fill="white"/>
+    <text x="405" y="33" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#0088cc">ՄԻԱՆԱԼ</text>
+    
+    <!-- Small paper airplane icon -->
+    <g transform="translate(440, 30) scale(0.12)">
+      <path d="M0,0 L30,-15 L0,-5 L-10,-15 Z" fill="#0088cc"/>
+      <path d="M0,0 L30,-15 L15,15 Z" fill="#0088cc"/>
+    </g>
+  </a>
+</svg>
